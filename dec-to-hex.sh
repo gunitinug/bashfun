@@ -7,6 +7,9 @@
 #
 # usage:
 # dec-to-hex.sh [decimal_number]
+#
+# actually you could do the same by: $ printf "%x\n" $decimal_number
+# but this is just for a challenge ;)
 
 # require at least one argument
 [[ $# -lt 1 ]] && echo -e "Converts decimal to hex\nusage:\ndec-to-hex.sh [decimal number to convert]" >&2 && exit 1
