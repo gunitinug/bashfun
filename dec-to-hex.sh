@@ -24,7 +24,8 @@ let "n--"
 # now find set of X: max x: 16^m * x <= decimal_number
 # where x is a hex number
 # where m: {n, n-1, ... , 0}
-# and decimal_number = decimal_number - previously found hex digit value in decimal
+# and decimal_number = decimal_number - digit_decimal
+# where digit_decimal = 16^m * x for previous m
 # and decimal_number: decimal_number >= 0
 
 X=()
