@@ -1,2 +1,2 @@
 # bashfun
-Collection of intersting bash scripts I end up writing ;)
+Collection of interesting bash scripts I end up writing ;)
