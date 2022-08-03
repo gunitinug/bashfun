@@ -12,6 +12,11 @@
 # but this is just for a challenge ;)
 # also, if you try this script with a really large number, it fails.
 # probably because of limit set inside bash :-(
+#
+# Example:
+# $ dec-to-hex.sh 999111
+# dec:  999111
+# hex:  f3ec7
 
 # require at least one argument
 [[ $# -lt 1 ]] && echo -e "Converts decimal to hex\nusage:\ndec-to-hex.sh [decimal number to convert]" >&2 && exit 1
